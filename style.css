@@ -1,0 +1,95 @@
+.base-funcionarios{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: lime;
+	width: 608px;
+	margin: auto;
+	padding: 2px;
+}
+.pontos-funcionario{
+	text-indent: 10px;
+	color: green;
+	font-weight: bold;
+}
+.base-descrição{
+	width: 410px;
+	height: 100px;
+	background-color: lime;
+	margin: auto;
+	margin-top: 30px;
+}
+.opçoes-texto,.opçoes-numero{
+	width: 480px;
+	height: 30px;
+	padding: 5px;
+	background-color: lime;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	display: none;
+}
+.valor-texto,.valor-numero{
+	width: 80px;
+	margin: 5px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+}
+.funcionario{
+	margin: 1px;
+	width: 150px;
+	height:150px;
+	background-color: white;
+}
+
+.nome-funcionario{
+	font-family: arial,helvetica,sans-serif;
+	text-indent: 10px;
+}
+.funçao-funcionario{
+	font-family: monospace;
+	color: gray;
+	text-indent: 10px;
+}
+.descriçao-funcionario{
+	font-weight: bolder;
+	text-indent: 10px;
+}
+.funções-h1{
+	font-family: monospace;
+	color: white;
+	margin: 5px;
+}
+select{
+	margin: 10px;
+	width: 100px;
+}
+.caixa{
+	display:inline-block;
+	width: 120px;
+	height: 80px;
+	margin: 5px;
+}
+.resultado-h1{
+	font-family: monospace;
+	text-indent: 10px;
+}
+.base-array{
+	width: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	margin-top: 20px;
+	word-break: break-all;
+	padding: 4px;
+}
+.array-criado{
+	width: 100px;
+	padding: 1px;
+	margin: 5px;
+	background-color: white;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+}

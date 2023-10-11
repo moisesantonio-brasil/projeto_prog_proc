@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Trabalho</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class="base-funcionarios">
+		<div class="funcionario">
+			<h1 class="nome-funcionario">Carlos</h1>
+			<p class="funçao-funcionario">Pegar Valor</p>
+			<p class="pontos-funcionario"></p>
+		</div>
+			<div class="funcionario">
+			<h1 class="nome-funcionario">Pedro</h1>
+			<p class="funçao-funcionario">Ativar funçao</p>
+			<p class="pontos-funcionario"></p>
+		</div>
+			<div class="funcionario">
+			<h1 class="nome-funcionario">Henrique</h1>
+			<p class="funçao-funcionario">Fazer processo</p>
+			<p class="pontos-funcionario"></p>
+		</div>
+			<div class="funcionario">
+			<h1 class="nome-funcionario">Gustavo</h1>
+			<p class="funçao-funcionario">Finalizar processo</p>
+			<p class="descriçao-funcionario"></p>
+		</div>
+	</section>
+	<section class="opçoes-texto">
+		<button class="valor-texto" value="mercado">mercado</button>
+		<button class="valor-texto" value="vendedor">vendedor</button>
+		<button class="valor-texto" value="homem">homem</button>
+		<button class="valor-texto" value="cenoura">cenoura</button>
+		<button class="valor-texto" value="tabuada">tabuada</button>
+	</section>
+		<section class="opçoes-numero">
+		<button class="valor-numero" value="50">+50</button>
+		<button class="valor-numero" value="35">+35</button>
+		<button class="valor-numero" value="10">10</button>
+		<button class="valor-numero" value="20">20</button>
+		<button class="valor-numero" value="100">100</button>
+	</section>
+	<section class="base-descrição">
+		<div class="caixa">
+		<h1 class="funções-h1">Valores</h1>
+		<select>
+		<option selected>escolha</option>
+		<option>texto</option>
+		<option>número</option>
+		<option>mostrar array</option>
+		</select>
+		</div>
+
+		<div class="caixa"> 
+		<h1 class="funções-h1">Funções</h1>
+		<select>
+		<option selected>escolha</option>
+		<option>atualizar valor</option>
+		<option>remover valor</option>
+		<option>combinar valor</option>
+		</select>
+		</div>
+		<div class="caixa" style="height: 90px;">
+			<h1 class="resultado-h1">Resultado</h1>
+			<input type="text" readonly style="width: 100px;margin-left: 5px;" 
+			value="" placeholder="valor final">
+		</div>
+	</section>
+	<section class="base-array">
+		
+	</section>
+
+<hr/>
+<h2>Tutorial do projeto</h2>
+<p>PRIMEIRO escolha um valor das opções VALORES</p>
+<p>Você pode escolher entre TEXTO ou NÚMERO </p>
+<p>ao apertar em uma dessas opções apareceram
+os valores na parte de cima , aperte em um deles</p>
+<p>O valor será mostrado na caixa CARLOS</p>
+<p>AGORA escolha uma das opções da caixa EVENTOS</p>
+<p>ATUALIZAR VALOR significa você deixar salvo o valor que você
+escolheu</p>
+<p>REMOVER VALOR significa remover o último valor adicionado</p>
+<p>COMBINAR VALOR serve para pegar o último valor e combina com o atual</p>
+<br/>
+<b><p>Exemplo:</p></b>
+<p>ultimo valor: <b>banana</b></p>
+<p>valor atual: <b>2323</b></p>
+<p>resultado: <b>banana2323</b></p>
+
+	<script src="script.js">
+	</script>
+</body>
+</html>
